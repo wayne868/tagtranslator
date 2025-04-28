@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Django stuff
+db.sqlite3
+*.log
+
+# Media files
+/media/
+*.png
+*.jpg
+*.jpeg
+
+# Virtual environment
+ll_env/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Secret files
+.env
+
+# Migrations (optional)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# System files
+.DS_Store
+Thumbs.db
